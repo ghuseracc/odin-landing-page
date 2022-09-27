@@ -11,9 +11,13 @@ body {
 
 .header,
 .footer,
-.hero-text,
-.hero-subtext {
+.hero {
     background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -56,6 +60,7 @@ button,
     color: #1f2937;
 }
 
-.footer {
+.footer,
+.hero-image {
     color: #f9faf8;
 }
