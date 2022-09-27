@@ -24,7 +24,7 @@ body {
 .hero-text {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 .hero-subtext,
@@ -38,4 +38,10 @@ button,
 .sign-up-subtext {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.info-text {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
 }
