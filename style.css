@@ -37,6 +37,16 @@ a {
     color: #e5e7eb;
 }
 
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
+
 button,
 .sign-up-text,
 .sign-up-subtext {
