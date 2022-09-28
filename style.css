@@ -45,6 +45,25 @@ body {
     align-items: center;
 }
 
+.infomation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.info {
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
