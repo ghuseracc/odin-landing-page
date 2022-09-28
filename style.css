@@ -9,61 +9,6 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header,
-.footer,
-.hero {
-    background-color: #1f2937;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 150px;
-}
-
-.hero {
-    padding: 50px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 450px;
-    gap: 8px;
-}
-
-.hero-image {
-    width: 600px;
-    height: 200px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.infomation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.info-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-}
-
-.info {
-    display: flex;
-    width: 150px;
-    flex-wrap: wrap;
-}
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -106,6 +51,7 @@ button,
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
+    margin: 50px;
 }
 
 .quote {
@@ -129,3 +75,66 @@ button,
     align-items: center;
 }
 
+
+.header,
+.footer,
+.hero {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 150px;
+}
+
+.hero {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.hero-image {
+    width: 600px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infomation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 15px;
+    border-color: #3882f6;
+    margin-bottom: 8px;
+}
