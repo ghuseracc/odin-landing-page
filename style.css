@@ -56,6 +56,9 @@ button,
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -123,7 +126,7 @@ button,
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
     text-align: center;
 }
 
@@ -143,4 +146,15 @@ button,
 button  {
     padding: 4px 32px;
     border-radius: 7px;
+}
+
+.quote-container {
+    padding: 100px 300px;
+}
+
+.name {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
 }
