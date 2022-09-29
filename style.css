@@ -158,3 +158,22 @@ button  {
     justify-content: end;
     margin-right: 15px;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    margin: 100px 150px;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.sign-up-text {
+    font-weight: bold;
+}
+
+.sign-up-button {
+    border: 2px solid #f9faf8;
+    border-radius: 7px;
+}
