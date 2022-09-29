@@ -124,6 +124,7 @@ button,
     display: flex;
     justify-content: center;
     gap: 50px;
+    text-align: center;
 }
 
 .info {
@@ -137,4 +138,9 @@ button,
     border-radius: 15px;
     border-color: #3882f6;
     margin-bottom: 8px;
+}
+
+button  {
+    padding: 4px 32px;
+    border-radius: 7px;
 }
