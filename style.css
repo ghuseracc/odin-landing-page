@@ -56,9 +56,6 @@ button,
 
 .quote {
     background-color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .quote-text {
@@ -72,10 +69,24 @@ button,
     color: #f9faf8;
 }
 
-.footer {
+.footer,
+.infomation,
+.quote,
+.hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header,
+.hero,
+.sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
     padding: 30px;
 }
 
@@ -87,16 +98,11 @@ button,
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
     padding: 8px 150px;
 }
 
 .hero {
     padding: 50px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .hero-container {
@@ -112,16 +118,10 @@ button,
     width: 600px;
     height: 200px;
     background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .infomation {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 100px;
 }
 .info-container {
@@ -161,11 +161,8 @@ button  {
 }
 
 .sign-up-container {
-    display: flex;
-    justify-content: space-between;
     padding: 50px 150px;
     margin: 100px 150px;
-    align-items: center;
     background-color: #3882f6;
     border-radius: 10px;
 }
