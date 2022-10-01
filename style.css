@@ -64,8 +64,7 @@ button,
     color: #1f2937;
 }
 
-.footer,
-.hero-image {
+.footer {
     color: #f9faf8;
 }
 
@@ -113,10 +112,9 @@ button,
     margin-bottom: 50px;
 }
 
-img {
+.hero-img {
     width: 600px;
     height: 200px;
-    background-color: lightgray;
 }
 
 .infomation {
@@ -134,12 +132,10 @@ img {
     max-width: 150px;
 }
 
-.image {
+.info-img {
     width: 150px;
     height: 150px;
-    border: solid;
     border-radius: 15px;
-    border-color: #3882f6;
     margin-bottom: 8px;
 }
 
