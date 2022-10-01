@@ -71,8 +71,7 @@ button,
 
 .footer,
 .infomation,
-.quote,
-.hero-image {
+.quote {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +113,7 @@ button,
     margin-bottom: 50px;
 }
 
-.hero-image {
+img {
     width: 600px;
     height: 200px;
     background-color: lightgray;
